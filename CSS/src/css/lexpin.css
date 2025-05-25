@@ -1,0 +1,10 @@
+nav{
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    display: flex;
+}
+
+nav div{
+    display: flex;
+}
