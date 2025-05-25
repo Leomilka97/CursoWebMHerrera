@@ -1,15 +1,42 @@
-nav{
+* {
+    margin: 0;
+    padding: 0;
+  }
+nav {
     background-color: blue;
     color: white;
-    font-size: 25px;
+    font-size: 25px; 
     display: flex;
     /* Propiedad que maneja el eje principal y solo se puede utilizar si es flex*/
     justify-content:space-between ;
     /* Propiedad que maneja el eje secuandario y solo se puede utilizar si es flex*/
     align-items: center;
-    height: 300px;
+    padding: 20px 0 20px 0;
 }
 
-nav div{
-    display: flex;
+nav div {
+   display: flex;
+   gap: 20px;
 }
+
+nav div a:visited, nav div a:link {
+
+    color: white;
+    text-decoration: none;
+}
+
+.enlace:hover{
+
+    color: black;
+}
+
+/*#Inicio:hover, #Intro:hover{
+    /*font-weight: 200;*/
+   /* color:black;*/
+
+
+/* para eliminar este codigo con otra propiedad gab
+nav div a{
+    margin: 20px;
+}
+/*
